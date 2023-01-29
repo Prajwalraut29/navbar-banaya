@@ -177,3 +177,7 @@ align-items: flex-end;
 # click on version control system
 # initialize repository 
 # commit the message -> first commit 
+# link of repo
+# add name of your 
+# then add push to github
+# push to github ->>auto add url 
