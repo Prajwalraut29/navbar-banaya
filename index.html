@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar creating  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- EMBBEDEED STYLE SHEET -->
+    <!-- <style type="text/css">
+        h1{
+            color: blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style> -->
+    <!-- <style type="text/css">
+        a{
+            text-decoration: underline;
+        }
+        a:hover{
+            color: rgb(30, 0, 255);
+            text-decoration: overline;
+        }
+        a:visited{
+            color: rgb(255, 30, 0);
+        }
+
+        a:active{
+            color: rgb(0, 255, 81);
+        }
+           
+        a:link{
+            color: rgb(151, 42, 165);
+        } -->
+
+    <!-- </style> -->
+    <!-- <style>
+        #p1 {
+            background-color: rgba(37, 233, 23, 0.6);
+        }
+        #p2 {
+            background-color: rgb(0, 255, 0);opacity: 0.4;
+        }
+        #p3 {
+            background-color: hsl(123, 83%, 47%); 
+        }
+    </style> -->
+    <style>
+        /* h1{
+            color: blue;
+        }
+        /* class selector */
+        /* .brf{
+            color: darkgreen;
+            font-family: sans-serif;
+        }
+        #gf{
+            height: 80px;
+            width: 60px;
+            color: coral;
+            font-family: monospace;
+            background-color: darkgrey;
+        } */ */
+
+        #grad1 {
+            height: 100px;
+            background:linear-gradient(to bottom right, red, blue );
+        }
+    </style>
+
+
+</head>
+
+       <!-- INLINE CSS        
+     <h1> Welcome to thte css course</h1>
+     <h2 style="color: burlywood; font-family: fantasy;">easy learning</h2>  -->
+          <!-- <a href="https://www.udemy.com"> click here for courses</a> -->
+         <!-- <p style="color: crimson;"> paragraph with red colour</p>
+         <p style="direction: rtl;"> paragraph right to left</p>         
+         <p style="letter-spacing: normal;"> paragraph with red colour</p>
+         <p style="text-indent: 1cm;"> paragraph with red colour</p>
+        -->
+         <!-- <p style="text-decoration: underline;"> this will be underline</p>
+         <p style="text-decoration: line-through;"> line trough striked line-through</p>         
+         <p style="text-decoration: overline;"> overline</p>
+         <p style="text-decoration: blink;"> blinking effect </p> -->
+
+         <!-- <p style="text-transform: capitalize;"> this will be capitalize</p>
+         <p style="text-transform: uppercase;"> this will be uppercase</p>
+         <p style="text-transform: lowercase;"> this will be lowercase</p>
+          -->
+         <!-- color  -->
+         <!-- hex code 
+         short hex code
+         RGB abolute
+         keyboards -->
+         <!-- <p>RGBA Colors </p>
+       <p id="p1"> Red</p> 
+       <p id="p2"> Green</p> 
+       <p id="p3"> Blue</p>  -->
+       <!-- <img style="border: 3px solid rgb(0, 0, 0);" src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80"> -->
+        <!-- <div style="background-color: green; width: 300px; height: 100px; 
+        position: absolute; top: 80px;left: 80px; z-index: 3;"></div>
+
+<div style="background-color: rgb(26, 0, 128); width: 300px; height: 100px; 
+position: absolute; top: 60px;left: 60px; z-index: 3;"></div>
+
+<div style="background-color: rgb(128, 0, 4); width: 300px; height: 100px; 
+        position: absolute; top: 0px;left: 40px; z-index: 3;"></div> -->
+        
+
+        <!-- fonts  <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> changed the font </p>
+        <p style="font-style: italic;">  this is italic</p>
+        <p style="font-weight: bold;">  this is bold</p>
+        <p style="font-size: 30px;">  this is size is 30 px</p>
+        <p style="font-size: small;">  this is italic</p> -->
+  
+  <!-- list in CSS
+        <ul style="list-style: none;">
+ <li style="float: left;width: 10%;">Physics</li>
+ <li style="float: left;width: 10%;">Bio</li>
+ <li style="float: left;width: 10%;">Hindi</li>
+ <li style="float: left;width: 10%;">Physics</li> </ul> -->
+
+ <!--  pADDING  <p style="padding-bottom: 15px; border: 1px solid black;"> 
+    this is a paragraph with a specified bottom padding</p>
+
+    <p style="padding-bottom: 5%; border: 1px solid black;"> 
+        this is a paragraph with a specified bottom padding</p>
+    
+     -->
+     <!-- <div style="position: relative; left: 80px; top: 20px; 
+     background-color: yellow;">
+    this div has relative  
+    </div>
+
+    <div style="position: absolute; left: 80px; top: 40px; 
+     background-color: rgb(182, 11, 230);">
+    this div has absolute
+    </div> -->
+
+    <!-- <div style="position: fixed; left: 80px; top: 20px; 
+     background-color: yellow;">
+    this div has relative  
+    </div>
+
+    <div style="position: static; left: 80px; top: 20px; 
+     background-color: yellow;">
+    this div has relative  
+    </div> -->
+<!-- <p style="width: 400px; height: 100px; border: 1px solid red;
+padding: 5px; margin: 10px;"> this is para is 400px x wide and 100px high</p> -->
+  
+<!-- <h1>selector in CSS  </h1>
+<h2 class="brf">  name selector 
+class selector 
+id selector 
+universal selector
+
+</h2>
+ <p id="gf"> bhai kya chalu hai </p> -->
+<!-- 
+    css formatting 
+   1) color
+   2) font family -> try to add two more more font family deu to unexpected error
+   3) font size ->unit of font size is pixel 
+   * default value of font size is 16px
+   * formula of coverting em to pixel 
+   em = pixel/16
+    em (2)= 32 /16
+    4) font style -> styling like italic
+    5) font weight -> weight or thickness of text
+    like bold,meduim,large,semi bold, extrabold
+    6)
+
+
+ -->
+
+
+<!-- <hr>
+<p class="two"> mai masti ka husti bro aa gaya culti maine bombay mai bacha ek la
+    dki ko ye bhadwe kr rahe hai nakli tu nahi tu tu nahi gha maja guu   </p>
+<hr> -->
+<body>
+    <nav>
+        <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="#"><i class="fa-sharp fa-solid fa-building-columns"></i>learning</a>
+        <a href="#"><i class="fa-solid fa-user"></i>Aboutus</a>
+        <a href="#"><i class="fa-brands fa-youtube"></i>Courses</a>
+        <a href="#"><i class="fa-solid fa-location-pin"></i>Location</a>
+</nav>
+</body>
+
+
+</html>                                                         
